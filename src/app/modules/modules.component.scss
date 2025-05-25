@@ -1,0 +1,30 @@
+.myheader {
+    background-color: #71B1C5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: fit-content;
+
+    border: none;
+    border-radius: 0 0 16px 16px;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.logobar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.right-icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .logobar {
+        flex-wrap: wrap;
+        position: relative;
+    }
+}

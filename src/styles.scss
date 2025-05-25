@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: #CBE6EF;
+}
+
+
+.iconG {
+    color: rgb(85, 85, 85);
+    width: 45px;
+    height: 45px;
+    background-color: rgb(255, 249, 241);
+}
